@@ -1,0 +1,6 @@
+artifact_location: s3://s3-student-mle-20241219-a60d0b01a0
+creation_time: 1737987398694
+experiment_id: '498141772742838328'
+last_update_time: 1737987398694
+lifecycle_stage: active
+name: churn_pmm
