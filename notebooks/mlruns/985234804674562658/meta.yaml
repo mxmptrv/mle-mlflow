@@ -1,0 +1,6 @@
+artifact_location: file:///home/mle-user/mle_projects/mle-mlflow/notebooks/mlruns/985234804674562658
+creation_time: 1738837573890
+experiment_id: '985234804674562658'
+last_update_time: 1738837573890
+lifecycle_stage: active
+name: churn_fio

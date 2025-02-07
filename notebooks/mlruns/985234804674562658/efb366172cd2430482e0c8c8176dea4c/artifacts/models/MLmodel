@@ -1,0 +1,53 @@
+artifact_path: models
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.12
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.3.1
+metadata:
+  model_type: LogisticRegression
+  task: binary_classification
+mlflow_version: 2.7.1
+model_uuid: d3708c88d2b6496b8403745a6063f444
+run_id: efb366172cd2430482e0c8c8176dea4c
+saved_input_example_info:
+  artifact_path: input_example.json
+  pandas_orient: split
+  type: dataframe
+signature:
+  inputs: '[{"type": "double", "name": "num__spline__monthly_charges_sp_0"}, {"type":
+    "double", "name": "num__spline__monthly_charges_sp_1"}, {"type": "double", "name":
+    "num__spline__monthly_charges_sp_2"}, {"type": "double", "name": "num__spline__monthly_charges_sp_3"},
+    {"type": "double", "name": "num__spline__monthly_charges_sp_4"}, {"type": "double",
+    "name": "num__spline__monthly_charges_sp_5"}, {"type": "double", "name": "num__spline__total_charges_sp_0"},
+    {"type": "double", "name": "num__spline__total_charges_sp_1"}, {"type": "double",
+    "name": "num__spline__total_charges_sp_2"}, {"type": "double", "name": "num__spline__total_charges_sp_3"},
+    {"type": "double", "name": "num__spline__total_charges_sp_4"}, {"type": "double",
+    "name": "num__spline__total_charges_sp_5"}, {"type": "double", "name": "num__quantile__monthly_charges"},
+    {"type": "double", "name": "num__quantile__total_charges"}, {"type": "double",
+    "name": "num__robust__monthly_charges"}, {"type": "double", "name": "num__robust__total_charges"},
+    {"type": "double", "name": "num__poly__1"}, {"type": "double", "name": "num__poly__monthly_charges"},
+    {"type": "double", "name": "num__poly__total_charges"}, {"type": "double", "name":
+    "num__poly__monthly_charges^2"}, {"type": "double", "name": "num__poly__monthly_charges
+    total_charges"}, {"type": "double", "name": "num__poly__total_charges^2"}, {"type":
+    "double", "name": "num__poly__monthly_charges^3"}, {"type": "double", "name":
+    "num__poly__monthly_charges^2 total_charges"}, {"type": "double", "name": "num__poly__monthly_charges
+    total_charges^2"}, {"type": "double", "name": "num__poly__total_charges^3"}, {"type":
+    "double", "name": "num__kbins__monthly_charges"}, {"type": "double", "name": "num__kbins__total_charges"},
+    {"type": "double", "name": "cat__type_One year"}, {"type": "double", "name": "cat__type_Two
+    year"}, {"type": "double", "name": "cat__payment_method_Credit card (automatic)"},
+    {"type": "double", "name": "cat__payment_method_Electronic check"}, {"type": "double",
+    "name": "cat__payment_method_Mailed check"}, {"type": "double", "name": "cat__internet_service_Fiber
+    optic"}, {"type": "double", "name": "cat__gender_Male"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2025-02-06 10:35:57.495906'

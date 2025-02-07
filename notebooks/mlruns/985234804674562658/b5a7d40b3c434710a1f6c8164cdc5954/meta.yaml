@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mle-user/mle_projects/mle-mlflow/notebooks/mlruns/985234804674562658/b5a7d40b3c434710a1f6c8164cdc5954/artifacts
+end_time: 1738838277678
+entry_point_name: ''
+experiment_id: '985234804674562658'
+lifecycle_stage: active
+run_id: b5a7d40b3c434710a1f6c8164cdc5954
+run_name: model_validation
+run_uuid: b5a7d40b3c434710a1f6c8164cdc5954
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1738838277628
+status: 4
+tags: []
+user_id: mle-user
