@@ -1,0 +1,15 @@
+artifact_uri: file:///home/mle-user/mle_projects/mle-mlflow/notebooks/mlruns/985234804674562658/c9f3c454f94049089f4689f283f7f02b/artifacts
+end_time: 1739257929154
+entry_point_name: ''
+experiment_id: '985234804674562658'
+lifecycle_stage: active
+run_id: c9f3c454f94049089f4689f283f7f02b
+run_name: feature_selection_intersection_and_union
+run_uuid: c9f3c454f94049089f4689f283f7f02b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1739257929145
+status: 3
+tags: []
+user_id: mle-user
